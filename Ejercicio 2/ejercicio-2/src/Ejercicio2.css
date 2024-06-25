@@ -1,0 +1,33 @@
+.botones{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+  }
+  
+  .contenedor-entradas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  input, button {
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  button {
+    background-color: #0000ff;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .resultado {
+    margin-top: 20px;
+    font-size: 18px;
+    text-align: center;
+}

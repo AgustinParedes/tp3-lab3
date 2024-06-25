@@ -1,0 +1,44 @@
+.contenedor {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .lista-usuarios {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .usuario {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    padding: 5px 10px;
+    margin-top: 10px;
+  }
+  
+  .lista-tareas {
+    list-style: initial;
+    padding: 0;
+    margin-top: 10px;
+  }
+  
+  .tarea {
+    padding: 5px;
+    margin: 5px 0;
+  }
+  
+  .tarea.completada {
+    background-color: green;
+  }
+  
+  .tarea.pendiente {
+    background-color: orangered;
+  }
