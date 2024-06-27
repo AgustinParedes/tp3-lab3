@@ -1,3 +1,7 @@
+//3- Realizar una pagina en Vite con React con listas desplegables <select> que permitan modificar la
+//dirección, justificado y alineado de tres <div> contenidos dentro de otro <div> empleando
+//‘flexbox’. Tener en cuenta que este ejercicio se resolvió en clase en Javascript
+
 import { useState } from 'react';
 import './Ejercicio3.css';
 

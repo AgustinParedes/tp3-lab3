@@ -1,3 +1,13 @@
+//2- Escribir un programa de Vite con React que permita calcular el IMC de una persona. Luego de
+//realizar el cálculo, mostrar un mensaje con las siguientes características:
+//• Si IMC < 18.5 mostrar un mensaje en tono amarillo indicando que se trata un nivel bajo.
+//• Si IMC está entre 18.5 y 24.9 mostrar un mensaje en tono verde indicando que se trata de un
+//nivel normal.
+//• Si IMC está entre 25 – 29.9 mostrar un mensaje en tono naranja indicando que se trata de un
+//nivel de sobrepeso.
+//• Si IMC es mayor o igual a 30 mostrar un mensaje en tono rojo indicando que se trata de un
+//nivel de obesidad.
+
 import { useState } from 'react';
 import "./Ejercicio2.css"
 

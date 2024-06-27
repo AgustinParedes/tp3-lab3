@@ -1,3 +1,13 @@
+//4- Realice un programa con Vite con React que presente un formulario que permita ingresar el
+//nombre, apellido, edad en años, altura en centímetros y correo electrónico de una persona. Al hacer
+//click sobre un botón llamado ‘enviar’ este debe realizar las siguiente validaciones:
+//• El nombre y apellido no pueden estar vacíos y deben tener un máximo de 50 caracteres.
+//• La edad no debe ser negativa pero también validar que no sea menor de edad.
+//• La altura no puede ser negativa y no puede ser mayor a 230 (cm).
+//• El correo electrónico no puede estar vacío y debe incluir el ‘@’.
+//Mostrar en un elemento <p> un mensaje con el resultado de las validaciones. Si todas las
+//validaciones son correctas mostrar el mensaje en verde, en caso contrario en rojo.
+
 import { useState } from 'react';
 import "./Ejercicio4.css"
 
